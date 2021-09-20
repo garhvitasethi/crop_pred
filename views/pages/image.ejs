@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../partials/header'); %>
+</header>
+
+<main>
+  <div class="jumbotron">
+    <h1>Crops with most Yield suitable with input parameters</h1>
+    <div>
+      Input - 
+      <br>
+      1. District - <%= input.district %>
+      <br>
+      2. Year - <%= input.year %>
+      <br>
+      3. Season - <%= input.season %>
+      <br>
+      4. Area - <%= input.area %>
+      <br>
+      5. Rain - <%= input.rain %>
+      <br>
+      6. Temperature - <%= input.temperature %>
+      <br>
+
+      <ul>
+        <% for(var i=0; i<data.length; i++) {%>
+          <li><%= data[i] %></li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+</main>
+
+</body>
+
+</html>

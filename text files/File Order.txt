@@ -1,0 +1,31 @@
+File Order 
+
+-------------------------------DATA PREPROCESSING------------------------------------------------------------------
+
+1 ProductionDataManip.py --------> Reoredering, changing column names and moving punjab's data into separate csv file
+2 LinguisticChanges.py --------> Names of incorrect districts corrected and saved
+3 joint.py --------> Rainfall and Temp data inner joined with punjab's agri data
+4 ml1.py -------> correlation matrix plot and info, head, describe values explored.
+
+
+5 app2.py ------> Strings encoded using LabelEncoder and saved to joint_encoded.csv
+6 app2b.py ------> duplicate String columns removed after encoding, test-train split done and files saved.
+
+------------------------------------------ TRAINING, TESTING AND PERFORMANCE METRICS ---------------------------------
+
+7 lin_reg.py -----> Respective model trained and saved to Saved Models folder, Scatter Plot in Images folder.
+8 randomForest.py -----> Respective model trained and saved to Saved Models folder, Scatter Plot in Images folder.
+9 KNN.py -----> Respective model trained and saved to Saved Models folder, Scatter Plot in Images folder.
+10 GradBoost.py -----> Respective model trained and saved to Saved Models folder, Scatter Plot in Images folder.
+
+------------------------------------------ USER FRIENDLY MODEL TO PREDICT -------------------------------------------------
+
+ Random Forest achieved best performance out of and is implemented below. 
+11 model.py ------> Encoded String variables saved to csv files
+12 model2.py -----> Actual file for user interaction 
+
+
+Files not useful for discussion:
+ml2.py
+ml3.py
+ml4.py

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../partials/header'); %>
+</header>
+
+<main>
+  <div class="jumbotron">
+    <h1>Crop Prediction</h1>
+    <p>Please enter following details</p>
+
+    <form action="/submit" method="POST">
+      <label for="District">{'AMRITSAR': '0', 'BATHINDA': '1', 'FARIDKOT': '2', 'FATEHGARH SAHIB': '3', 'FIROZPUR': '4', 'GURDASPUR': '5', 'HOSHIARPUR': '6', 'JALANDHAR': '7', 'KAPURTHALA': '8', 'LUDHIANA': '9', 'MANSA': '10', 'MOGA': '11', 'MUKATSAR': '12', 'NAWANSHAHR': '13', 'PATIALA': '14', 'ROPAR(RUPNAGAR)': '15', 'SANGRUR': '16'}</label>
+      District Number: <input type="number" name="district">
+      <br>
+      Enter Year: <input type="number" name="year">
+      <br>
+      <label for="Season">{'Kharif': '0', 'Rabi': '1', 'Whole year': '2'}</label>
+      <br>
+      Season Number: <input type="number" name="season">
+      <br>
+      Enter Area: <input type="number" name="area">
+      <br>
+      Enter Rain: <input type="number" name="rain">
+      <br>
+      Enter Temperature: <input type="number" name="temperature">
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+
+  </div>
+</main>
+
+</body>
+
+</html>

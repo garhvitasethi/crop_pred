@@ -1,0 +1,41 @@
+PERFORMANCE METRICS
+
+Linear Regression---------------------------------------------------------------------------
+Training Accuracy = 0.568, Test Accuracy = 0.554, RMSE (train) = 0.925, RMSE (test) = 0.948
+exp variance err 0.5601763398857484     
+max error 2.4416323075087014
+mae 0.7965939937376598
+mse 0.8982500985435693
+mean sq log error 0.044987990350810324  
+median absolute error 0.7725273080808668
+r2 0.55357883119094
+
+Random Forest--------------(BEST PERFORMING)-----------------------------------------------
+Training Accuracy = 0.999, Test Accuracy = 0.991, RMSE (train) = 0.050, RMSE (test) = 0.131
+exp variance err 0.9914802931772574
+max error 0.9452050572835842
+mae 0.07979092507096396
+mse 0.01716715893023955
+mean sq log error 0.0010842520768911234
+median absolute error 0.04165457322429034
+r2 0.9914680965054226
+
+KNN----------------------------------------------------------------------------------------
+Training Accuracy = 0.898, Test Accuracy = 0.900, RMSE (train) = 0.450, RMSE (test) = 0.448
+exp variance err 0.9060139541740634
+max error 1.818730516069527
+mae 0.2926541946798004
+mse 0.20099073727004838
+mean sq log error 0.009059072724281312
+median absolute error 0.1738642046703589
+r2 0.9001096465256468
+
+GradBoost----------------------------------------------------------------------------------
+Training Accuracy = 0.993, Test Accuracy = 0.989, RMSE (train) = 0.116, RMSE (test) = 0.149
+exp variance err 0.9889914286775023
+max error 0.9424970457427335
+mae 0.09981468728488427
+mse 0.02221382143916687
+mean sq log error 0.001491920099612434
+median absolute error 0.06696396154741313
+r2 0.9889599565347472
